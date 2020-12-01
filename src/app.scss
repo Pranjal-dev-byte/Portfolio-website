@@ -1,0 +1,16 @@
+@import './sass/abstracts/_mixins.scss';
+@import './sass/abstracts/_variables.scss';
+
+@import './sass/base/_base.scss';
+@import './sass/base/_typography.scss';
+@import './sass/base/_utilities.scss';
+
+@import './sass/components/_about.scss';
+@import './sass/components/_button.scss';
+@import './sass/components/_projects.scss';
+
+@import './sass/layout/_footer.scss';
+@import './sass/layout/_header.scss';
+@import './sass/layout/_navbar.scss';
+
+@import './sass/pages/_home.scss';
