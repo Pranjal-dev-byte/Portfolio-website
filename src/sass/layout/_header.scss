@@ -1,21 +1,25 @@
 .header {
-	position: relative;
-	height: 100vh;
 	width: 100vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	&__resume {
-		&:link,
-		&:visited {
-			text-decoration: none;
-			color: $color-white;
-			text-transform: uppercase;
-			font-size: 2.4rem;
-		}
-		&:hover,
-		&:active {
-			color: $color-white;
-		}
-	}
+	height: 100vh;
+	background: #1488cc; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#2b32b2,
+		#1488cc
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2948ff, #396afc);
+	margin-bottom: 4rem; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	// &__resume {
+	// 	&:link,
+	// 	&:visited {
+	// 		text-decoration: none;
+	// 		color: $color-white;
+	// 		text-transform: uppercase;
+	// 		font-size: 2.4rem;
+	// 	}
+	// 	&:hover,
+	// 	&:active {
+	// 		color: $color-white;
+	// 	}
+	// }
 }

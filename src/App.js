@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
 import './app.scss'
 
 function App() {
